@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Auxiliar">
+      <UniqueIdentifier>{1ee78c2b-4fbf-4188-be86-7e34f62ca23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{8957fb17-f447-4e48-a775-f37d11c8d781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{f2fb0068-a3a9-4c96-b4d0-95bd41ccf0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{5d09af6b-48cf-40f0-9170-f18fda4dfcb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Implementations">
+      <UniqueIdentifier>{544b32cf-9e64-4730-9e2b-e4324788fcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Implementations">
+      <UniqueIdentifier>{db7046da-1425-4de1-9bc4-f885e517e663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src-ood\glad.c">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="src-ood\main_ood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src-ood\rigidBody.cpp">
+      <Filter>Source Files\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="src-ood\ball.cpp">
+      <Filter>Source Files\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="src-ood\brick.cpp">
+      <Filter>Source Files\Implementations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\shaders\frag_col.shader">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="bin\shaders\vert_ball.shader">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="bin\shaders\vert_brick.shader">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src-ood\debug.hpp">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\io.hpp">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\mouse.h">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\shader.hpp">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\iMovable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\iDrawable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\iAccelerable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\ball.h">
+      <Filter>Header Files\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\brick.h">
+      <Filter>Header Files\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\rigidBody.h">
+      <Filter>Header Files\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\ballFactory.hpp">
+      <Filter>Header Files\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="src-ood\brickFactory.hpp">
+      <Filter>Header Files\Implementations</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

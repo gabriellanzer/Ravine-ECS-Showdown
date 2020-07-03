@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Auxiliar">
+      <UniqueIdentifier>{1ee78c2b-4fbf-4188-be86-7e34f62ca23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{8957fb17-f447-4e48-a775-f37d11c8d781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{f2fb0068-a3a9-4c96-b4d0-95bd41ccf0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{a2eb2e02-6cf7-4efa-aab8-4dc159702983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{646a036b-306d-4f42-bada-79a04782b2f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src-dod\glad.c">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="src-dod\main_dod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src-dod\AttractionSystem.hpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\BoundarySystem.hpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\BoxSystem.hpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\GravitySystem.hpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\MovementSystem.hpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\lifeTime.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\position.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\rect.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\velocity.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\debug.hpp">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\io.hpp">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\mouse.h">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\shader.hpp">
+      <Filter>Header Files\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="src-dod\BallSystem.hpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\shaders\frag_col.shader">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="bin\shaders\vert_ball_instanced.shader">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="bin\shaders\vert_brick_instanced.shader">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
